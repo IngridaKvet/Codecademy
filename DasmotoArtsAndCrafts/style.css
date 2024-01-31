@@ -1,0 +1,34 @@
+h1{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    background-image: url("img/pattern.webp");
+}
+
+h2{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+#firstSectionHeader{
+    background-color: mediumspringgreen;
+}
+
+#secondSectionHeader{
+    background-color: lightcoral;
+}
+
+#thirdSectionHeader{
+    background-color: skyblue;
+}
+
+.textBlue{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: blue;
+}
+
