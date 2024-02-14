@@ -1,0 +1,95 @@
+html{
+    height: 100%;
+    background-color: #F5F1E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tableDiv{
+    border: solid black 2px;
+    background-color: white;
+    box-sizing: border-box;
+    height: 601px;
+    width: 910px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blueLine{
+    background-color: #5ce1e6;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+    box-sizing: border-box;
+    height: 11px;
+    width: 626px;
+}
+
+.folder1{
+    background-color: #ffc900;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    border-right: solid black 1px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-sizing: border-box;
+    height: 44px;
+    width: 152px; 
+}
+
+#pink{
+    background-color: #f43fc1;
+}
+
+.folder3{
+    background-color: #5ce1e6;
+    border-top: solid black 2px;
+    border-left: solid black 1px;
+    border-right: solid black 2px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-sizing: border-box;
+    height: 44px;
+    width: 37px; 
+}
+
+.folders{
+    display: flex;
+    flex-direction: row;
+}
+
+table{
+    width: 834px;
+    height: 441px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: black 2px solid;
+  }
+
+ .code, .name{
+    text-align: center;
+    min-width: 100px;
+ }
+
+.description{
+    padding-left: 20px;
+}
+
+th{
+    background-color: #ffc900;
+    height: 33px;
+}
+
+mark{
+    font-family: monospace, sans-serif;
+    background-color: #5ce1e6;
+    font-size: 12px;
+}
+
+h1{
+    padding-top: 10px;
+}
