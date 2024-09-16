@@ -1,9 +1,10 @@
 html{
     height: 100%;
-    background-color: #F5F1E1;
+    background-color: lemonchiffon;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: monospace;
 }
 
 .tableDiv{
@@ -15,20 +16,23 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 0 20px 20px 20px;
+    padding-top: 20px;
 }
 
 .blueLine{
-    background-color: #5ce1e6;
+    background-color: aqua;
     border-top: solid black 2px;
     border-left: solid black 2px;
     border-right: solid black 2px;
     box-sizing: border-box;
     height: 11px;
     width: 626px;
+    border-radius: 0 5px 0 0;
 }
 
 .folder1{
-    background-color: #ffc900;
+    background-color: gold;
     border-top: solid black 2px;
     border-left: solid black 2px;
     border-right: solid black 1px;
@@ -40,11 +44,11 @@ html{
 }
 
 #pink{
-    background-color: #f43fc1;
+    background-color: hotpink;
 }
 
 .folder3{
-    background-color: #5ce1e6;
+    background-color: aqua;
     border-top: solid black 2px;
     border-left: solid black 1px;
     border-right: solid black 2px;
@@ -80,13 +84,13 @@ table, th, td {
 }
 
 th{
-    background-color: #ffc900;
+    background-color: gold;
     height: 33px;
 }
 
 mark{
     font-family: monospace, sans-serif;
-    background-color: #5ce1e6;
+    background-color: aqua;
     font-size: 12px;
 }
 
