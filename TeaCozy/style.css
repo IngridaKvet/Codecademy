@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    font-size: 22px;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 69px;
+    padding: 10px;
+    border-bottom: 1px solid seashell;
+    align-items: center;    
+}
+
+nav{
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 10px;
+
+   
+    
+}
+
+
